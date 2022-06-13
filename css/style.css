@@ -5,7 +5,6 @@ header{
 .header_wrap{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     max-width: 1180px;
     width: 100%;
     margin: 0 auto;
@@ -16,13 +15,16 @@ h1{
     width: 205px;
     height: 24px;
     background-size: cover;
+    margin-right: 44px;
 }
 .gnb{
     display: flex;
+    margin-right: 35px;
 }
 .gnb li{
-    padding: 28px 43px;
+    padding: 29px 44px;
     font-size: 16px;
+    letter-spacing: -1px;
 }
 .gnb li:nth-child(4){
     padding-right: 53px;
@@ -64,6 +66,7 @@ h1{
     font-weight: 300;
     font-size: 28px;
     letter-spacing: -1px;
+    padding-top: 44px;
 }
 .main_contents h2 .bold{
     font-size: 42px;
@@ -75,4 +78,44 @@ h1{
 .main_contents p{
     color: #d5e6ff;
     font-weight: 400;
+}
+.method_wrap{
+    display: flex;
+    margin-top: 45px;
+}
+.method_wrap .method_box{
+    width: 130px;
+    height: 125px;
+    text-align: center;
+    margin-right: 11px;
+}
+.method_wrap .method_box .img_area{
+    margin-top: 26px;
+}
+.method_wrap .method_box .contents_area{
+    letter-spacing: -1px;
+}
+.method_wrap .method_box .contents_area::before{
+    background: url(../images/line.png) no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 1px;
+    display: block;
+    content: '';
+    margin: 19px auto 8px;
+}
+.method_wrap .method_box:nth-child(1){
+    background-color: #2693b4;
+}
+.method_wrap .method_box:nth-child(2){
+    background-color: #3184be;
+}
+.method_wrap .method_box:nth-child(3){
+    background-color: #3c70d0;
+}
+.method_wrap .method_box:nth-child(4){
+    background-color: #464bcc;
+}
+.method_wrap .method_box:nth-child(5){
+    background-color: #6548bc;
 }
