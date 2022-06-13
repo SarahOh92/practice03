@@ -1,0 +1,78 @@
+header{
+    background: #12349b;
+    color: #fff;
+}
+.header_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+}
+h1{
+    background: url(../images/logo.png) no-repeat;
+    width: 205px;
+    height: 24px;
+    background-size: cover;
+}
+.gnb{
+    display: flex;
+}
+.gnb li{
+    padding: 28px 43px;
+    font-size: 16px;
+}
+.gnb li:nth-child(4){
+    padding-right: 53px;
+}
+.gnb li a{
+    color: #fff;
+}
+.search_area{
+    position: relative;
+    background: #fff;
+    border-radius: 50px;
+}
+.search_area input{
+    width: 225px;
+    height: 32px;
+    border-radius: 50px;
+}
+.search_area input::placeholder{
+    color: #12349b;
+    font-size: 14px;
+    font-weight: 700;
+}
+.search_area a .search_btn_icon{
+    background: url(../images/search.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    position: absolute;
+    margin: -24px 207px;
+}
+.project_management_area{
+    background: url(../images/project.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 320px;
+    color: #fff;
+}
+.main_contents h2{
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: -1px;
+}
+.main_contents h2 .bold{
+    font-size: 42px;
+    font-weight: bold;
+}
+.main_contents h2 .big{
+    font-size: 42px;
+}
+.main_contents p{
+    color: #d5e6ff;
+    font-weight: 400;
+}
