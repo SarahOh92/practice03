@@ -10,16 +10,61 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header id="top">
         <div class="header_wrap">
             <div class="gnb_area">
                 <h1><a href="index.html" class="ir_pm">CSP 한국컨설팅서비스협회 통합컨설팅서비스 플랫폼</a></h1>
                 <ul class="gnb">
-                    <li><a href="#">방법론</a></li>
-                    <li><a href="#">자료실</a></li>
-                    <li><a href="#">전문가</a></li>
-                    <li><a href="#">포럼</a></li>
-                    <li><a href="#">고객센터</a></li>
+                    <li>
+                        <a href="#">방법론</a>
+                        <div class="width100">
+                            <ul class="m-width">
+                                <li><a href="#">전략방법론</a></li>
+                                <li><a href="#">마케팅방법론</a></li>
+                                <li><a href="#">NPD방법론</a></li>
+                                <li><a href="#">HR방법론</a></li>
+                                <li><a href="#">제조혁신방법론</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">자료실</a>
+                        <div class="width100">
+                            <ul class="m-width">
+                                <li><a href="#">산업/기관자료</a></li>
+                                <li><a href="#">인포그라픽자료</a></li>
+                                <li><a href="#">인포그라픽 편집기</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">전문가</a>
+                        <div class="width100">
+                            <ul class="m-width">
+                                <li><a href="#">전문가 SOS</a></li>
+                                <li><a href="#">전문가 정보</a></li>
+                                <li><a href="#">전문가 연구자료</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">포럼</a>
+                        <div class="width100">
+                            <ul class="m-width">
+                                <li><a href="#">포럼 리스트</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">고객센터</a>
+                        <div class="width100">
+                            <ul class="m-width">
+                                <li><a href="#">도움말</a></li>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">문의하기</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
                 <div class="search_area">
                     <input type="text" placeholder="통합검색">
@@ -511,48 +556,70 @@
                     </div>
                 </div>
                 <div class="notice_wrap">
-                    <div class="notice_top">
-                        <h4>공지사항</h4>
-                        <a href="#" class="more"></a>
-                    </div>
-                    <div class="notice_contents">
-                        <ul>
-                            <li><a href="#">통합컨설팅서비스플랫폼 서비스 오픈 이벤트</a></li>
-                            <li><a href="#">나노융합 2020사업의 기술사업화 사례잡 모음</a></li>
-                            <li><a href="#">계좌이동서비스 도입 주요이슈와 시사점</a></li>
-                        </ul>
-                    </div>
-                    <div class="morgue_wrap">
-                        <div class="morgue_top">
-                            <h4>전문가 연구자료</h4>
-                            <a href="#" class="more"></a>
+                    <div class="notice_area">
+                        <div class="notice_top">
+                            <h4>공지사항</h4>
+                            <a href="#" class="more">
+                                <img src="images/more_gray.png" alt="공지사항 더보기">
+                            </a>
                         </div>
-                        <div class="morgue_contents">
-                            <div class="morgue_list">
-                                <div class="img_area"></div>
+                        <div class="notice_contents">
+                            <ul>
+                                <li><a href="#">통합컨설팅서비스플랫폼 서비스 오픈 이벤트</a></li>
+                                <li><a href="#">나노융합 2020사업의 기술사업화 사례잡 모음</a></li>
+                                <li><a href="#">계좌이동서비스 도입 주요이슈와 시사점</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="expert_area">
+                        <div class="expert_top">
+                            <h4>전문가 연구자료</h4>
+                            <a href="#" class="more"><img src="images/more_gray.png" alt="전문가 연구자료 더보기"></a>
+                        </div>
+                        <div class="expert_contents">
+                            <div class="expert_list">
+                                <div class="img_area">
+                                    <img src="images/expert1.png" alt="전문가 홍길동">
+                                </div>
                                 <div class="text_area">
                                     <p>AI(인공지능), 머신, 딥러닝, 뇌 관련자료</p>
-                                    <span class="name">전문가 홍길동</span>
-                                    <span class="date">16-06-28</span>
+                                    <div class="text_bottom">
+                                        <span class="name">전문가 홍길동</span>
+                                        <span class="date">16-06-28</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="morgue_list">
-                                <div class="img_area"></div>
+                            <div class="expert_list">
+                                <div class="img_area">
+                                    <img src="images/expert2.png" alt="전문가 홍길동">
+                                </div>
                                 <div class="text_area">
                                     <p>新기후변화체자가 신재생에너지산업에 큰 기여</p>
-                                    <span class="name">전문가 홍길동</span>
-                                    <span class="date">16-03-26</span>
+                                    <div class="text_bottom">
+                                        <span class="name">전문가 홍길동</span>
+                                        <span class="date">16-03-26</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="morgue_list">
-                                <div class="img_area"></div>
+                            <div class="expert_list">
+                                <div class="img_area">
+                                    <img src="images/expert3.png" alt="전문가 컨설팅서비스협회">
+                                </div>
                                 <div class="text_area">
                                     <p>2016년 콘텐츠산업 전망</p>
-                                    <span class="name">전문가 컨설팅서비스협회</span>
-                                    <span class="date">16-03-25</span>
+                                    <div class="text_bottom">
+                                        <span class="name">전문가 컨설팅서비스협회</span>
+                                        <span class="date">16-03-25</span>
+                                    </div>
                                 </div>
                             </div>
-                            <img src="" alt="">
+                        </div>
+                        <div class="expert_platform">
+                            <div class="platform_img"><img src="images/expert_list.png" alt="전문가 리스트"></div>
+                            <div class="platform_txt">
+                                <p>통합컨설팅서비스플랫폼</p>
+                                <p>전문가 리스트</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -560,34 +627,47 @@
         </div>
     </section>
     <footer>
-        <div class="footer_top">
-            <div class="footer_top_left">
-                <ul>
-                    <li>개인정보취급방침</li>
-                    <li>이용약관</li>
-                    <li>협회소개</li>
-                </ul>
-            </div>
-            <div class="footer_top_right">
-                <div id="top"></div>
-            </div>
-        </div>
-        <div class="footer_bottom">
-            <div class="address_area">
-                <div class="address_top">
+        <div class="inner">
+            <div class="footer_top">
+                <div class="footer_top_left">
                     <ul>
-                        <li>(사)한국컨설팅서비스협회</li>
-                        <li>서울특별시 강남구 선릉로 91길 19(역삼동 705-5) 동현빌딩 10층</li>
-                        <li>대표전화 : 02-53-3808</li>
-                        <li>대표전화 : 02-553-3813</li>
+                        <li>개인정보취급방침</li>
+                        <li>이용약관</li>
+                        <li>협회소개</li>
                     </ul>
-                    <p class="copyright">Copyright &copy; 2014 WWW>KOCSA.KR. All rights reserved.</p>
+                </div>
+                <div class="footer_top_right">
+                    <div class="top">
+                        <a href="index.html">TOP</a>
+                    </div>
                 </div>
             </div>
-            <div class="family_site">
-                <button>FAMILY SITE</button>
+            <div class="footer_bottom">
+                <div class="address_area">
+                    <div class="address_top">
+                        <ul>
+                            <li>(사)한국컨설팅서비스협회</li>
+                            <li>서울특별시 강남구 선릉로 91길 19(역삼동 705-5) 동현빌딩 10층</li>
+                            <li>대표전화 : 02-53-3808</li>
+                            <li>팩스 : 02-553-3813</li>
+                        </ul>
+                        <p class="copyright">Copyright &copy; 2014 WWW>KOCSA.KR. All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="family_site">
+                    <div class="family_list btn">
+                        FAMILY SITE
+                        <ul>
+                            <li><a href="#">family site 1</a></li>
+                            <li><a href="#">family site 2</a></li>
+                            <li><a href="#">family site 3</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src="js/stlye.js"></script>
 </body>
 </html>
