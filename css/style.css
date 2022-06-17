@@ -4,6 +4,9 @@ header{
     background-size: cover;
     color: #fff;
     background-position: bottom;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    z-index: 15;
 }
 .header_wrap{
     background: #12349b;
@@ -12,6 +15,7 @@ header{
 .gnb_area{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     max-width: 1180px;
     width: 100%;
     margin: 0 auto;
@@ -26,52 +30,75 @@ h1{
     margin: 0 42px 0 3px;
 }
 .gnb{
-    display: flex;
-    margin-right: 74px;
+    width: 600px;
+    line-height: 80px;
+    text-align: center;
+    height: 80px;
+    position: relative;
+    z-index: 10;
+}
+.gnb::after{
+    content: '';
+    display: block;
+    clear: both;
 }
 .gnb li{
-    padding: 7px 30px;
-    margin: 0px 20px 0 0px;
     font-size: 16px;
     letter-spacing: -1px;
+    float: left;
+    width: 20%;
+    position: relative;
+    height: 80px;
+}
+.gnb li a{
+    color: #fff;
 }
 .gnb li:hover{
     text-decoration: underline;
 }
-/* .gnb li:nth-child(4){
-    padding-right: 53px;
-} */
-.gnb li>a {
-    display: block;
+.gnb li:nth-child(4){
+    margin-right: none;
+}
+.gnb li a{
     color: #fff;
-    position: relative;
-}
-.width100 {
+    display: inline-block;
     width: 100%;
-    position: absolute;
-    background-color: #eef3ff;
-    z-index: 10;
-    left: 0;
-    top: 80px;
-    height: 0;
-    overflow: hidden;
-    transition: all .5s;
+    height: 80px;
 }
-.gnb li:hover .width100 {
-    height: auto;
-    padding: 20px 0;
-    box-shadow: 0 6px 11px rgb(0 0 0 / 29%);
+.depth2 {
+    height: 170px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
 }
-.m-width{
-    width: 645px;
-    margin: 0 auto;
+.depth2.on {
+    display: block;
 }
-.m-width li a{
+.depth2 li{
+    width: 100%;
+    text-align: center;
+    float: none;
+    height: 21px;
+}
+.depth2 li a{
+    font-size: 11px;
     color: #000;
-    font-size: 13px;
+} 
+.sub_bg {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 0;
+    background:#eef3ff;
+    z-index: 5;
+    transition: all 0.3s ease-out;
+}
+.sub_bg.on {
+    height: 150px;
 }
 .search_area{
-    position: relative;
+    display: inline-block;
     background: #fff;
     border-radius: 50px;
 }
@@ -96,7 +123,7 @@ h1{
 .project_management_area{
     background: url(../images/report.png) no-repeat;
     width: 100%;
-    background-position: bottom left 282px;
+    background-position: bottom left 91px;
     height: 320px;
     color: #fff;
 
@@ -519,6 +546,7 @@ h1{
 }
 .container_box:nth-child(3){
     width: 292px;
+    font-family: '맑은 고딕', sans-serif;
 }
 .sos_top{
     display: flex;
@@ -560,7 +588,7 @@ h1{
 .sos_bottom li a span{
     margin-bottom: 4px;
     display: inline-block;
-    font-size: 11px;
+    font-size: 10px;
     width: 45px;
     height: 17px;
     text-align: center;
@@ -591,6 +619,7 @@ h1{
 }
 .my_page_area{
     width: 280px;
+    font-family: '맑은 고딕', sans-serif;
 }
 .my_page_area .my_page_wrap{
     border: 1px solid #bec5d8;
@@ -742,7 +771,7 @@ h1{
     margin: -4px 1px 0 0;
 }
 .notice_contents ul li{
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
     color: #333;
     line-height: 25px;
