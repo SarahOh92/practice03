@@ -45,13 +45,12 @@ h1{
     float: left;
     width: 20%;
     position: relative;
-    height: 80px;
+    height: 26px;
 }
 .gnb li a{
     color: #fff;
     display: inline-block;
     width: 100%;
-    height: 80px;
     position: relative;
 }
 .gnb li:hover a::after{
@@ -68,10 +67,11 @@ h1{
     margin-right: none;
 }
 .depth2 {
-    height: 170px;
+    height: 150px;
     box-sizing: border-box;
     text-align: center;
     display: none;
+    padding-top: 15px;
 }
 .depth2.on {
     display: block;
@@ -80,10 +80,10 @@ h1{
     width: 100%;
     text-align: left;
     float: none;
-    height: 21px;
-    padding-left: 36px;
+    line-height: 11px;
 }
 .depth2 li a{
+    padding-left: 36px;
     font-size: 11px;
     color: #000;
 } 
