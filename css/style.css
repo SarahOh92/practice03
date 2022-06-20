@@ -107,7 +107,7 @@ h1{
 }
 .sub_bg {
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: 0px;
     width: 100%;
     height: 0;
@@ -144,7 +144,7 @@ h1{
 .project_management_area{
     background: url(../images/report.png) no-repeat;
     width: 100%;
-    background-position: bottom left 284px;
+    background-position: center center;
     height: 320px;
     color: #fff;
 
@@ -271,19 +271,31 @@ h1{
     position: relative;
     text-align: center;
 }
+.data_bottom .slider_area img{
+    position: relative;
+    left: 1px;
+}
 .data_bottom .slider_area::before{
-    background: url(../images/left_right.png) no-repeat;
-    width: 234px;
+    background: url(../images/left.png) no-repeat;
     content: '';
-    height: 28px;
+    position: absolute;
+    display: inline-block;
+    top: 82px;
+    left: 29px;
+    width: 14px;
+    height: 27px;
+    cursor: pointer;
+}
+.data_bottom .slider_area::after{
+    background: url(../images/right.png) no-repeat;
+    content: '';
     position: absolute;
     display: inline-block;
     top: 82px;
     right: 29px;
-}
-.data_bottom .slider_area img{
-    position: relative;
-    left: 1px;
+    width: 14px;
+    height: 27px;
+    cursor: pointer;
 }
 .data_bottom .slider_contents{
     text-align: center;
@@ -305,10 +317,13 @@ h1{
     vertical-align: middle;
     position: relative;
 }
-.slider_pager img{
-    position: absolute;
-    top: 17px;
-    right: 127px;
+.slider_pager ul{
+    display: flex;
+    justify-content: center;
+}
+.slider_pager ul li{
+    margin-right: 5px;
+    cursor: pointer;
 }
 .industry_db .industry_db_top{
     border-bottom: 1px solid #e9ecf1;
@@ -331,6 +346,7 @@ h1{
 }
 .industry_db_top .right_side ul li{
     margin: 0 0 7px 15px;
+    cursor: pointer;
 }
 .db_bottom::after{
     content: '';
@@ -830,6 +846,10 @@ h1{
     line-height: 25px;
     letter-spacing: -.15px;
 }
+.notice_contents ul li:hover a{
+    color: #19b4a6;
+    text-decoration: underline;
+}
 .expert_area{
     padding: 14px;
 }
@@ -857,6 +877,15 @@ h1{
     margin-top: -1px;
     width: 201px;
 }
+.expert_list .img_area{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.expert_list .img_area img{
+    width: 100%;
+    height: 100%;
+}
 .expert_list .text_area p{
     font-size: 13px;
     font-weight: 300;
@@ -864,6 +893,11 @@ h1{
     text-overflow: ellipsis;
     overflow: hidden;
     letter-spacing: -.8px;
+}
+.expert_list .text_area p:hover{
+    color: #19b4a6;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .text_area .text_bottom{
     font-size: 11px;
