@@ -915,6 +915,7 @@ h1{
     margin-top: 28px;
     position: relative;
     height: 70px;
+    cursor: pointer;
 }
 .platform_img{
     position: absolute;
