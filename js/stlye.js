@@ -16,6 +16,6 @@ $(function () {
     $(".gnb").on("mouseleave", function(){
       setTimeout(function(){
          $(".sub_bg, .depth2").removeClass("on");
-     }, 100);
+     }, 50);
   });
   });
