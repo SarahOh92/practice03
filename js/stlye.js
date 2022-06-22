@@ -9,11 +9,11 @@ $(function () {
     });
   });
   $(function(){
-    $(".gnb").on("mouseenter", function(){
+    $(".gnb_area").on("mouseenter", function(){
       $(".sub_bg, .depth2").addClass("on");
     });
       
-    $(".gnb").on("mouseleave", function(){
+    $(".gnb_area").on("mouseleave", function(){
       setTimeout(function(){
          $(".sub_bg, .depth2").removeClass("on");
      }, 50);

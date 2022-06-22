@@ -53,11 +53,9 @@ input[type="text"], input[type="search"], img {
 }
 input[type="text"] {
     background-color: initial;
-    cursor: default;
     appearance: auto;
     box-sizing: border-box;
     margin: 0px 0px 0px 15px;
-    padding: initial;
     border: initial;
     line-height: 32px;
 }
