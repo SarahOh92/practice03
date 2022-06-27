@@ -18,6 +18,6 @@ $(function () {
       setTimeout(function(){
          $(".sub_bg, .depth2").removeClass("on");
          $(".gnb_area").removeClass("hover");
-     }, 50);
+     }, 100);
   });
   });

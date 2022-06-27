@@ -2,7 +2,7 @@
 header{background: url(../images/report_bg.png) no-repeat;width: 100%;background-size: cover;color: #fff;background-position: bottom;width: 100%;z-index: 15;}
 .header_wrap{background: #12349b; box-shadow: 0 1px #000;}
 .gnb_area{width: 100%;height: 80px;border-bottom: 1px solid #000;}
-.gnb_area.hover>.inner{height: 70px;}
+.gnb_area.hover>.inner{height: 70px;;}
 .gnb_area>.inner{display: flex;align-items: center;justify-content: space-between;}
 h1 a{background: url(../images/logo.png) no-repeat;width: 205px;height: 24px;background-size: cover;display: inline-block;margin: -7px 0px 0 3px;vertical-align: middle;}
 .gnb{ width: 600px;line-height: 80px;text-align: center;height: 80px;position: relative;z-index: 10;}
@@ -302,5 +302,6 @@ footer {height: 100px;margin-top: 20px;}
 .family_list::after{background: url(../images/family_site.png) no-repeat;content: '';display: inline-block;width: 9px;height: 5px;margin-top: 12px;}
 .family_list ul{position: absolute;width: 160px;bottom: 28px;background: #fff;right: -1px;border: 1px solid #d8d8d8;}
 .family_list ul li{height: 30px;border-bottom: 1px solid #d8d8d8;}
-.family_list ul li a{color: #afafaf; margin-left: 10px;}
+.family_list ul li a{display: block; color: #afafaf; padding-left: 10px;}
+.family_list ul li a:hover{background: #f9f9f9;}
 .family_list ul li:last-child{border-bottom: none;}
