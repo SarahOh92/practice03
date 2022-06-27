@@ -7,8 +7,6 @@ $(function () {
     acc.mouseout(function () {
       $(this).removeClass("active");
     });
-  });
-  $(function(){
     $(".gnb_area").on("mouseenter", function(){
       $(".sub_bg, .depth2").addClass("on");
       $(".gnb_area").addClass("hover");
@@ -20,4 +18,4 @@ $(function () {
          $(".gnb_area").removeClass("hover");
      }, 100);
   });
-  });
+});
