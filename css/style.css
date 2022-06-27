@@ -95,7 +95,9 @@ h1 a{background: url(../images/logo.png) no-repeat;width: 205px;height: 24px;bac
 .more_contents .contents_bottom p{color: #bac5ff;}
 
 .data_bottom .bullet{text-align: center; margin-top: -3px;}
-.data_bottom .bullet span{cursor: pointer;}
+.data_bottom .bullet span{cursor: pointer; background: url(../images/unpaged.png) no-repeat; width: 6px;height: 6px;display: inline-block;}
+.data_bottom .bullet span.on{background: url(../images/onpaged.png) no-repeat;}
+.data_bottom .bullet span:hover{background: url(../images/onpaged.png) no-repeat;}
 .data_bottom .btn_wrap{position: absolute; top: 30%; display: flex;}
 .data_bottom .btn_wrap div{position: absolute; cursor: pointer; width: 20px;}
 .data_bottom .btn_wrap .prev{left: 10px;background: url(../images/left.png) no-repeat; display: inline-block; width: 14px;height: 27px;}
